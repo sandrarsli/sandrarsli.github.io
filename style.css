@@ -50,6 +50,25 @@ a:hover {
 }
 
 
+/* NEW: quote below profile photo */
+.profile-quote {
+    margin-top: 14px;
+    max-width: 240px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+    color: #666;
+}
+
+.profile-quote span {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 13px;
+    font-style: normal;
+    color: #888;
+}
 
 /* ============================================================
    Navigation
