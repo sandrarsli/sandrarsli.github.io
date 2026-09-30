@@ -1,30 +1,574 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Sandra - Academic Website</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Change this -->
+    <title>Sandra | Academic Website</title>
+
+    <meta
+        name="description"
+        content="Academic website of Sandra, PhD student in Computer Science."
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
-    <h1>Sandra</h1>
+    <!-- =========================================================
+         Navigation
+    ========================================================== -->
+    <nav class="navbar">
 
-    <p>PhD Student in Computer Science</p>
+        <div class="nav-container">
 
-    <h2>About Me</h2>
+            <!-- Change this -->
+            <a class="nav-name" href="#home">
+                Sandra
+            </a>
 
-    <p>
-        I am a PhD student interested in artificial intelligence,
-        multimodal learning, and physiological signal processing.
-    </p>
+            <div class="nav-links">
 
-    <h2>Research Interests</h2>
+                <a href="#news">News</a>
 
-    <ul>
-        <li>Multimodal Learning</li>
-        <li>Physiological Signal Processing</li>
-        <li>Representation Learning</li>
-        <li>Machine Learning</li>
-    </ul>
+                <a href="#publications">Publications</a>
+
+                <a href="#research">Research</a>
+
+                <a href="#teaching">Teaching</a>
+
+                <a href="#service">Service</a>
+
+                <a href="#awards">Awards</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <main class="container">
+
+
+        <!-- =====================================================
+             About / Homepage
+        ====================================================== -->
+        <section id="home" class="hero">
+
+
+            <div class="hero-text">
+
+                <!-- Change this -->
+                <h1>Sandra [Last Name]</h1>
+
+
+                <!-- Change university -->
+                <p class="position">
+                    PhD Student in Computer Science
+                    <br>
+                    <a href="YOUR_UNIVERSITY_URL">
+                        [University Name]
+                    </a>
+                </p>
+
+
+                <!-- Change this introduction -->
+                <p>
+                    I am a PhD student in Computer Science at
+                    <strong>[University Name]</strong>.
+                    My research focuses on machine learning,
+                    multimodal representation learning, and
+                    physiological signal processing.
+                </p>
+
+
+                <p>
+                    I am particularly interested in developing
+                    machine learning methods for multimodal
+                    biosignals, including physiological signals
+                    and surface electromyography (sEMG).
+                </p>
+
+
+                <h3>Research Interests</h3>
+
+                <p class="interests">
+                    Multimodal Learning ·
+                    Representation Learning ·
+                    Physiological Signals ·
+                    Foundation Models ·
+                    AI for Healthcare
+                </p>
+
+
+                <!-- Change all URLs -->
+                <div class="profile-links">
+
+                    <a href="files/CV.pdf">
+                        CV
+                    </a>
+
+                    <span>·</span>
+
+                    <a
+                        href="YOUR_GOOGLE_SCHOLAR_URL"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Google Scholar
+                    </a>
+
+                    <span>·</span>
+
+                    <a
+                        href="YOUR_GITHUB_URL"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+
+                    <span>·</span>
+
+                    <a
+                        href="YOUR_LINKEDIN_URL"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 Right-side profile
+            ================================================== -->
+            <aside class="profile-card">
+
+                <!-- Put your photo at images/profile.jpg -->
+                <img
+                    class="profile-image"
+                    src="images/profile.jpg"
+                    alt="Portrait of Sandra"
+                >
+
+
+                <div class="contact-info">
+
+                    <!-- Change these -->
+                    <p>
+                        <strong>Sandra [Last Name]</strong>
+                    </p>
+
+                    <p>
+                        PhD Student
+                        <br>
+                        Department of Computer Science
+                        <br>
+                        [University Name]
+                    </p>
+
+
+                    <!-- Change email -->
+                    <p>
+                        Email:
+                        <a href="mailto:YOUR_EMAIL@university.edu">
+                            YOUR_EMAIL@university.edu
+                        </a>
+                    </p>
+
+
+                    <!-- Optional -->
+                    <p>
+                        [City, State]
+                    </p>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             News
+        ====================================================== -->
+        <section id="news">
+
+            <h2>News</h2>
+
+            <div class="news-list">
+
+                <!-- Change these -->
+                <div class="news-item">
+                    <span class="news-date">
+                        Sep 2026
+                    </span>
+
+                    <span>
+                        Started my PhD in Computer Science at
+                        [University Name].
+                    </span>
+                </div>
+
+
+                <div class="news-item">
+                    <span class="news-date">
+                        Jul 2026
+                    </span>
+
+                    <span>
+                        Our paper
+                        <strong>
+                            "[Paper Title]"
+                        </strong>
+                        was accepted at [Conference Name].
+                    </span>
+                </div>
+
+
+                <div class="news-item">
+                    <span class="news-date">
+                        May 2026
+                    </span>
+
+                    <span>
+                        Presented our work on multimodal
+                        physiological signal representation learning.
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             Publications
+        ====================================================== -->
+        <section id="publications">
+
+            <h2>Publications</h2>
+
+
+            <!-- ================= Publication 1 ================= -->
+            <article class="publication">
+
+                <!-- Optional image -->
+                <div class="publication-image">
+
+                    <!--
+                    Replace this later with:
+                    images/paper1.png
+                    -->
+
+                    <div class="image-placeholder">
+                        Paper Figure
+                    </div>
+
+                </div>
+
+
+                <div class="publication-info">
+
+                    <!-- Change paper title -->
+                    <h3>
+                        Paper Title Goes Here
+                    </h3>
+
+
+                    <!-- Change authors -->
+                    <p class="authors">
+
+                        <strong>
+                            Sandra [Last Name]
+                        </strong>,
+
+                        Author Two,
+
+                        Author Three
+
+                    </p>
+
+
+                    <!-- Change venue -->
+                    <p class="venue">
+                        Conference / Journal Name, 2026
+                    </p>
+
+
+                    <!-- Optional short description -->
+                    <p>
+                        A short one- or two-sentence description
+                        of the main problem and contribution of
+                        this work.
+                    </p>
+
+
+                    <!-- Change links -->
+                    <div class="publication-links">
+
+                        <a
+                            href="YOUR_PAPER_URL"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Paper
+                        </a>
+
+                        <a
+                            href="YOUR_CODE_URL"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Code
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ================= Publication 2 ================= -->
+            <article class="publication">
+
+                <div class="publication-image">
+
+                    <div class="image-placeholder">
+                        Paper Figure
+                    </div>
+
+                </div>
+
+
+                <div class="publication-info">
+
+                    <h3>
+                        Another Paper Title
+                    </h3>
+
+
+                    <p class="authors">
+
+                        Author One,
+
+                        <strong>
+                            Sandra [Last Name]
+                        </strong>,
+
+                        Author Three
+
+                    </p>
+
+
+                    <p class="venue">
+                        Conference / Journal Name, 2025
+                    </p>
+
+
+                    <p>
+                        Brief description of the paper.
+                    </p>
+
+
+                    <div class="publication-links">
+
+                        <a
+                            href="YOUR_PAPER_URL"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Paper
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             Research
+        ====================================================== -->
+        <section id="research">
+
+            <h2>Research</h2>
+
+
+            <div class="research-grid">
+
+
+                <div class="research-card">
+
+                    <h3>
+                        Multimodal Physiological Learning
+                    </h3>
+
+                    <p>
+                        Developing representation-learning methods
+                        that capture relationships between multiple
+                        physiological modalities such as ECG and PPG.
+                    </p>
+
+                </div>
+
+
+
+                <div class="research-card">
+
+                    <h3>
+                        sEMG Speech Interfaces
+                    </h3>
+
+                    <p>
+                        Studying machine learning approaches for
+                        modeling and decoding speech-related muscle
+                        activity from surface electromyography.
+                    </p>
+
+                </div>
+
+
+
+                <div class="research-card">
+
+                    <h3>
+                        Foundation Models for Biosignals
+                    </h3>
+
+                    <p>
+                        Investigating self-supervised and multimodal
+                        pretraining strategies for physiological
+                        time-series data.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             Teaching
+        ====================================================== -->
+        <section id="teaching">
+
+            <h2>Teaching</h2>
+
+            <div class="simple-entry">
+
+                <!-- Replace when you have teaching -->
+                <p>
+                    <strong>
+                        Course Name
+                    </strong>
+                    — Teaching Assistant,
+                    [University Name],
+                    Fall 2026
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             Academic Service
+        ====================================================== -->
+        <section id="service">
+
+            <h2>Service</h2>
+
+            <div class="simple-entry">
+
+                <!-- Replace with actual service -->
+                <p>
+                    Reviewer / volunteer information can be listed here.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             Awards
+        ====================================================== -->
+        <section id="awards">
+
+            <h2>Awards</h2>
+
+
+            <div class="award-item">
+
+                <span>
+                    Award or Scholarship Name
+                </span>
+
+                <span class="award-year">
+                    2026
+                </span>
+
+            </div>
+
+
+            <div class="award-item">
+
+                <span>
+                    Another Award
+                </span>
+
+                <span class="award-year">
+                    2025
+                </span>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+
+
+    <!-- =========================================================
+         Footer
+    ========================================================== -->
+    <footer>
+
+        <p>
+            © 2026 Sandra [Last Name].
+            Hosted on GitHub Pages.
+        </p>
+
+    </footer>
+
 
 </body>
+
 </html>
